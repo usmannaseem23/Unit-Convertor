@@ -3,7 +3,7 @@ import pint
 
 # Initialize the unit registry
 ureg = pint.UnitRegistry()
-ureg.default_format = "~P"
+
 
 # Function to convert units
 def convert_units(value, from_unit, to_unit):  
